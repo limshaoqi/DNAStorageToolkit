@@ -1,0 +1,66 @@
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 1
+Accuracy: 0.0
+Total Time: 13.561694383621216 seconds
+==================================================
+
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 2
+Accuracy: 0.9851
+Total Time: 163.22375082969666 seconds
+==================================================
+
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 3
+Accuracy: 0.9922
+Total Time: 45.719882011413574 seconds
+==================================================
+
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 4
+Accuracy: 0.7794
+Total Time: 1038.5159199237823 seconds
+==================================================
+
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 5
+Accuracy: 0.0234
+Total Time: 89.3237099647522 seconds
+==================================================
+
+make: Entering directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+g++ -o obj/parallel_clustering.o -c src/parallel_clustering.cpp -O3 -Iincludes/ -lpthread
+g++ -o exe/clustering obj/configparser.o obj/parallel_clustering.o obj/_editdistance.o -O3 -Iincludes/ -lpthread
+make: Leaving directory '/home/s/shaoqi/DNAStorageToolkit/3-clustering'
+
+==================================================
+Gram Size: 6
+Accuracy: 0.0002
+Total Time: 25.101811170578003 seconds
+==================================================
+
